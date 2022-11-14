@@ -555,6 +555,7 @@ body {
   height: 15px;
   margin-right: 8.38px;
 
+  cursor: pointer;
   border: 2px solid var(--main-color);
   border-radius: 4px;
 }
@@ -569,7 +570,8 @@ body {
 
 
 .check-form {
-  display: inline-block;
+  display: flex;
+  align-items: center;
   margin-right: 2px;
 
   font-family: var(--font-roboto);
